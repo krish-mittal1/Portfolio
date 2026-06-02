@@ -1040,11 +1040,6 @@ h1 span {
   perspective: 1400px;
 }
 
-.single-card-layout {
-  max-width: 760px;
-  perspective: 1400px;
-}
-
 .about-side {
   display: grid;
   gap: 1.2rem;
@@ -1072,10 +1067,6 @@ h1 span {
 .panel:hover {
   transform: translateY(-6px) rotate(0deg);
   border-color: rgba(110, 231, 249, 0.28);
-}
-
-.cert-panel {
-  min-height: 20rem;
 }
 
 .panel h2,

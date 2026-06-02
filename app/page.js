@@ -119,7 +119,6 @@ export default function HomePage() {
         <nav className="site-nav">
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
-          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -300,27 +299,6 @@ export default function HomePage() {
               </article>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      <section id="experience" className="section">
-        <Reveal from="up">
-          <div className="section-heading tilt-text tilt-right-soft">
-            <p className="eyebrow">Experience</p>
-            <h2>Certification and applied learning.</h2>
-          </div>
-        </Reveal>
-
-        <div className="single-card-layout">
-          <Reveal delay={0.1} from="right">
-            <article className="panel cert-panel tilt-panel-right">
-              <p className="eyebrow">Certification</p>
-              <h2>Deloitte Technology Job Simulation</h2>
-              <p>
-                Completed practical tasks focused on coding and development through Forage.
-              </p>
-            </article>
-          </Reveal>
         </div>
       </section>
 
